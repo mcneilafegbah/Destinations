@@ -121,7 +121,7 @@
     scroll-behavior: smooth;
   }
   
-  body { background: var(--white); }
+  body { background: var(--white); height: 200vh; }
   
   
   
@@ -204,10 +204,9 @@
   
   
   
-  /*-----------------------------------*\
-   * #HEADER
-  \*-----------------------------------*/
-  
+
+/*  ----  HEADER ------*/
+
   .header {
     position: absolute;
     top: 0;
@@ -215,7 +214,7 @@
     width: 100%;
     padding-top: 61px;
     z-index: 4;
-    background: var(--gunmetal);
+   
   }
   
   .header-top {
@@ -369,3 +368,37 @@
   }
   
   
+
+
+   /* Banner */
+
+   .banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    background-blend-mode: overlay;
+    display: grid;
+    place-items: center;
+    min-height: 600px;
+    text-align: center;
+    padding-top: 125px;
+  }
+
+  .banner-title { margin-bottom: 20px; }
+
+.banner-text {
+  color: var(--white);
+  font-size: var(--fs-5);
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
