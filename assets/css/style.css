@@ -436,6 +436,9 @@
     font-weight: var(--fw-600);
     margin-top: 35px;
   }
+
+  /* ...... Popular.....*/
+
   .popular { padding-block: var(--section-padding); }
 
 .popular-list,
@@ -467,7 +470,7 @@
 }
 
 
-.popular-card .card-rating {
+.popular-card  {
   background: var(--bright-navy-blue);
   color: var(--white);
   position: absolute;
