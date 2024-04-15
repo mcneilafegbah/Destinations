@@ -114,6 +114,7 @@
   
               <li>
                 <a href="/index.html" class="navbar-link" menu-nav-link>home</a>
+
               </li>
   
               <li>
@@ -145,30 +146,62 @@
       <section class="banner" id="home">
         <div class="container">
 
-          <h2 class="h1 banner-title">Helping you explore world</h2>
+          <h2 class="h1 banner-title">istanbul</h2>
 
           <p class="banner-text">
-            Explore the sun-kissed shores of Santorini, where whitewashed buildings cling to cliffs overlooking the azure Aegean Sea. 
-            Lose yourself in the labyrinthine streets of Oia, indulge in delectable Greek cuisine, and unwind on volcanic beaches. 
                  </p>
 
           <div class="btn-group">
-            <a href="/istanbul.html" class="btn btn-primary">Istanbul, Turkey</a>
-            <button class="btn btn-primary">Santorini, Greece</button>
+            
+              <button class="btn btn-primary">Santorini, Greece</button>
             <button class="btn btn-primary">Paris, France</button>
             <button class="btn btn-primary">Cancún, Mexico</button>
             <button class="btn btn-primary">Dubai, UAE</button>
-            
-
 
 
           </div>
 
         </div>
       </section>
+<!---About -->
+<section class="popular" id="destination">
+    <div class="container">
+
+          <h2 class="h2 section-title">About Istanbul</h2>
+
+      <p class="section-text">
+        Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain. 
+        The iconic Byzantine Hagia Sophia features a soaring 6th-century dome and rare Christian mosaics
+      </p>
+
+
+     
+    </div>
+  </section>
+  <section class="tour-search">
+    <div class="container">
+
+     
+    
+    <div class="skyscanner"
+          data-skyscanner-widget="SearchWidget"
+          data-locale="en-GB"
+          data-market="GB"
+          data-currency="EUR"
+          data-responsive="true"
+          data-enable-placeholders="true"
+          data-colour="#ffffff"
+          data-powered-by-size="1"
+          data-font-colour="#2d2d2d"
+          data-widget-padding="0.5rem"
+          data-destination-name="'Istanbul'"
+        >
+        </div>
+  </section>
+
       <section class="popular" id="destination">
         <div class="container">
-
+            <div id="map"></div>
           <p class="section-subtitle">Uncover place</p>
 
           <h2 class="h2 section-title">Popular destination</h2>
@@ -283,6 +316,7 @@
       </section>
 
 
+      
       <!---- Call to action --> 
 
       <section class="cta" id="contact">
@@ -428,7 +462,10 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-      
+  <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
+      <script> var APikey = "AIzaSyBaY12g6JjJhhYIravCv2MeXagKe0bKnZ4"; </script>
+      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
 </body>
+
 </html>

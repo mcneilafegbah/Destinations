@@ -689,6 +689,24 @@ address {
  /* for Destinations */
 
 .popular-card .card-content { right: auto; }
+
+ /* for booking */
+.tour-search-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.tour-search-form .input-wrapper { margin-bottom: 0; }
+
+.tour-search-form .input-field { padding: 16px 20px; }
+
+.tour-search .btn {
+  grid-column: span 2;
+  margin-top: 20px;
+}
+
   
  /* for Footer */
 
@@ -710,7 +728,7 @@ footer .container {
 
 
 
- /* Responsive larger than 780 */
+ /* Responsive larger than 780px */
 
 
 @media (min-width: 768px) {
@@ -763,7 +781,7 @@ footer .container {
   .popular-card .card-content { right: 20px; }
 
 
-   /* Call to actionDestinations*/
+   /* Call to action*/
 
   .cta .container {
     display: flex;
@@ -790,4 +808,162 @@ footer .container {
 
   .footer-form .btn { width: max-content; }
 
+}
+
+ /* Responsive larger than 992px */
+
+ @media (min-width: 992px) {
+
+  
+  .container { max-width: 1050px; }
+
+   /* For header*/
+
+  .header.active .header-top {
+    position: unset;
+    background: unset;
+  }
+
+  .nav-open-btn,
+  .navbar-top { display: none; }
+
+  .header-bottom { border-bottom: none; }
+
+  .header.active .header-bottom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    color: var(--onyx);
+    box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
+    transition: var(--transition);
+  }
+
+  .header-bottom .container { padding-block: 0; }
+
+  .header .navbar { all: unset; }
+
+  .navbar-list {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-list li { border-bottom: none; }
+
+  .navbar-link {
+    color: var(--white);
+    --fs-4: 16px;
+    font-weight: unset;
+    text-transform: uppercase;
+    padding: 20px 15px;
+  }
+
+  .header.active .navbar-link { color: var(--onyx); }
+
+  .header.active .navbar-link:is(:hover, :focus) { color: var(--bright-navy-blue); }
+
+  .header.active .social-link {
+    color: var(--onyx);
+    border-color: hsla(0, 0%, 0%, 0.15);
+  }
+
+  .overlay { display: none; }
+
+
+
+     /* for Footer*/
+
+  .hero .container { max-width: 740px; }
+
+
+
+     /* for tour*/
+
+  .tour-search-form { grid-template-columns: repeat(5, 1fr); }
+
+  .tour-search .btn {
+    --padding: 15px;
+    grid-column: unset;
+    margin-top: 0;
+  }
+
+
+
+      /* for destination*/
+  .popular-list { grid-template-columns: repeat(2, 2fr); }
+
+
+
+
+    /* for Call ot action*/
+
+  .cta .section-title { max-width: 25ch; }
+
+
+
+      /* for Footer*/
+
+  .footer-top .container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+
+  .footer-form { grid-column: unset; }
+
+  .form-wrapper { flex-direction: column; }
+
+  .footer-form .btn { width: 100%; }
+
+}
+
+
+
+
+
+
+/* --- Booking---*/
+
+.tour-search {
+  background: var(--bright-navy-blue);
+  padding-block: var(--section-padding);
+}
+
+.tour-search-form .input-label {
+  color: var(--white);
+  font-size: var(--fs-4);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.tour-search-form .input-field {
+  background: var(--white);
+  padding: 10px 15px;
+  font-size: var(--fs-5);
+  border-radius: 50px;
+}
+
+.tour-search-form .input-field::placeholder { color: var(--spanish-gray); }
+
+.tour-search-form .input-field::-webkit-datetime-edit {
+  color: var(--spanish-gray);
+  text-transform: uppercase;
+}
+
+.tour-search-form .input-wrapper { margin-bottom: 15px; }
+
+.tour-search .btn {
+  width: 100%;
+  --border-width: 1px;
+  font-weight: var(--fw-600);
+  margin-top: 35px;
+}
+
+.skyscanner {
+  --border-width: 1px;
+  border: 2px solid #9D9D9D;
+  border-radius: 5px;
+  --radius-15: 15px;
 }
