@@ -634,3 +634,76 @@ address {
 }
 
 .go-top:is(:hover, :focus) { opacity: 1; }
+
+
+/* responsive for larger than 580px screen */
+
+@media (min-width: 580px) {
+
+   .container {
+    max-width: 580px;
+    margin-inline: auto;
+  }
+
+  .btn {
+    --fs-5: 16px;
+    --padding: 12px 30px;
+  }
+
+  section:not(.cta) :is(.section-subtitle, .section-title, .section-text) {
+    text-align: center;
+  }
+
+  .section-text { margin-bottom: 40px; }
+
+  .card-text { --fs-5: 15px; }
+
+  /* for header */
+
+  .header { padding-top: 83px; }
+
+  .helpline-box .icon-box { padding: 14px; }
+
+  .header-top .logo img { max-width: unset; }
+
+  .search-btn { font-size: 30px; }
+
+  .nav-open-btn { font-size: 40px; }
+
+  .header .btn {
+    --fs-5: 14px;
+    --padding: 6px 20px;
+  }
+
+ /* for Banner */
+
+ .hero {
+  min-height: 800px;
+  padding-top: 85px;
+}
+
+.hero-text { --fs-5: 15px; }
+
+.btn-group { gap: 20px; }
+
+ /* for Destinations */
+
+.popular-card .card-content { right: auto; }
+  
+ /* for Footer */
+
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.footer-form { grid-column: span 2; }
+
+.footer-bottom { text-align: left; }
+
+.copyright { margin-bottom: 0; }
+
+.footer-bottom-list { justify-content: flex-end; }
+
+}
