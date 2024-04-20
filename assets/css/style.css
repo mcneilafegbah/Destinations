@@ -967,3 +967,134 @@ footer .container {
   border-radius: 5px;
   --radius-15: 15px;
 }
+
+
+
+#map {min-height: 70vh;}
+
+
+/*
+.dropdown-menu {
+  width: 300px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color:var(--bright-navy-blue);
+
+  
+   
+}
+
+.dropdown-menu option {
+  padding: 5px;
+  text-align: center;
+  
+}
+
+.dropdown-menu:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9; 
+}
+.dropdown-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+*/
+
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: center; /* Align items horizontally at the center */
+
+
+}
+
+.dropdown-toggle {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: var(--white);
+  cursor: pointer;
+  background-color:var(--bright-navy-blue);
+  
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+   left: 0;
+  z-index: 10;
+  min-width: 200px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border: none;
+  background-color: transparent;
+
+}
+
+.dropdown-menu button:hover {
+  background-color: var(--bright-navy-blue);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
+
+#place-type {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.btt {
+  background-color: var(--bright-navy-blue);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
