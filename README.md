@@ -1,10 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+# DESTINATION
 Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Destination is aimed at  providing people who are thinking of visiting istanbul Turker, Paris France, Cancun Mexico or Santorini Greece Cork  some information on each city and to help them decide which city they may prefer to visit.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Each city page has the same structure so users will be familiar with the layout if they are browsing all 4 cities. Each page gives a brief overview of the cities , a google map with a drop down menu providing some recommendations for categories of Hotels, Bars, Restaurants and Tourist Attractions. 
+
+ADDITIONAL FEATURES
+
+I also wanted users to the site to be able to price and book flights. View and book accommodation, restaurants, and tourist attractions. Some additional features i also added were:
+
+A Skyscanner widget that is already preset to the nearest airport of each city. Users only need to enter their airport of origin and the dates they wish to travel and Skyscanner will provide them with a list of available flights. .
+Finally at the bottom of each page i have added a contact form that is powered by Email JS. When a user submits a message to the site i as the site owner will receive an email notification. The user will also receive an automated email reply confirming there message has been received and that we will be contacting them shortly to answer their enquiry.
 
 ## Codeanywhere Reminders
 

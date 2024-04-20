@@ -103,11 +103,14 @@
   button,
   ion-icon { display: block; }
   
-  input,
+  input,{
+    border: var(--border-width, 2px) solid transparent;
+   
+  }
   button {
     background: none;
-    border: none;
-    font: inherit;
+      font: inherit;
+ 
   }
   
   button { cursor: pointer; }
@@ -470,6 +473,7 @@
 .cta {
   background: var(--bright-navy-blue);
   padding-block: var(--section-padding);
+  color:var(--white);
 }
 
 .cta :is(.section-subtitle, .section-title, .section-text) { color: var(--white); }
@@ -1084,7 +1088,7 @@ footer .container {
 .btt {
   background-color: var(--bright-navy-blue);
   color: white;
-  border: none;
+  border:none;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
@@ -1097,4 +1101,12 @@ button:hover {
 
 button:active {
   background-color: #3e8e41;
+}
+
+
+
+/* ----- form----*/
+
+#name{
+  color: var(--spanish-gray)
 }
