@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Travel Agency</title>
+    
+    <!--
+        - favicon
+    -->
+    <link rel="shortcut icon" href=".favicon.svg"type="image/svg+xml">
+
+     <!--
+        - custom css link
+    -->
+    <link  rel="stylesheet" href="assets/css/style.css">
+
+    <!--
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+    
+
+ 
+   <!-- HEADER -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" menu-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+447769985833" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+44 776 998 5833</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <h2> Destinations </h2>
+        </a>
+        <div class="header-btn-group">
+
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search"></ion-icon>
+            </button>
+  
+            <button class="nav-open-btn" aria-label="Open Menu" menu-nav-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="header-bottom">
+        <div class="container">
+  
+          <ul class="social-list">
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+  
+          <nav class="navbar" menu-navbar>
+  
+            <div class="navbar-top">
+  
+              <a href="#" class="logo">
+                                <img src="/assets/images/logo-blue.svg" alt="Destination logo">
+              </a>
+  
+              <button class="nav-close-btn" aria-label="Close Menu" menu-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+  
+            </div>
+  
+            <ul class="navbar-list">
+  
+              <li>
+                <a href="/index.html" class="navbar-link" menu-nav-link>home</a>
+
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-link" menu-nav-link>about us</a>
+              </li>
+  
+              <li>
+                <a href="#destination" class="navbar-link" menu-nav-link>destination</a>
+              </li>
+    
+              <li>
+                <a href="#contact" class="navbar-link" menu-nav-link>contact us</a>
+              </li>
+  
+            </ul>
+  
+          </nav>
+  
+          <button class="btn btn-primary">Book Now</button>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!--  Banner      -->
+
+      <section class="banner" id="home">
+        <div class="container">
+
+          <h2 class="h1 banner-title">Paris</h2>
+
+          <p class="banner-text">
+                 </p>
+
+          <div class="btn-group">
+            
+            <a href="/istanbul.html" class="btn btn-primary">Istanbul, Turkey</a>
+            <a href="/santorini.html" class="btn btn-primary">Santorini, Greece</a>
+             <a href="/cancun.html" class="btn btn-primary">Cancún, Mexico</a>
+           
+
+
+          </div>
+
+        </div>
+      </section>
+<!---About -->
+<section class="popular" id="destination">
+    <div class="container">
+
+          <h2 class="h2 section-title">About Istanbul</h2>
+
+      <p class="section-text">
+        Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain. 
+        The iconic Byzantine Hagia Sophia features a soaring 6th-century dome and rare Christian mosaics
+      </p>
+
+
+     
+    </div>
+  </section>
+  <section class="tour-search">
+    <div class="container">
+
+        
+    <div class="skyscanner"
+          data-skyscanner-widget="SearchWidget"
+          data-locale="en-GB"
+          data-market="GB"
+          data-currency="EUR"
+          data-responsive="true"
+          data-enable-placeholders="true"
+          data-colour="#ffffff"
+          data-powered-by-size="1"
+          data-font-colour="#2d2d2d"
+          data-widget-padding="0.5rem"
+          data-destination-name="'Istanbul'"
+        >
+        </div>
+  </section>
+
+  <section class="popular" id="destination">
+         
+      <div class="container1 section-text" >
+    <!---    <div class="dropdown">
+          <button class="btn btn-primary section-text dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Click for recommendations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <button  class="button " onclick="showHotels()">Hotels</button>
+            
+            <button class="dropdown-item " id="istanbul-bars">Bars</button>
+            <button class="dropdown-item " id="istanbul-restuarant">Restaurants</button>
+            <button class="dropdown-item " id="istanbul-att">Tourist Attractions</button>
+          </div>
+        </div> --->
+
+        
+            <label for="place-type"></label>
+            <select id="place-type">
+              <option value="Select a place type">Select a place type</option>
+                <option value="hotel">Hotels</option>
+                <option value="bar">Bars</option>
+                <option value="restaurant">Restaurants</option>
+                <option value="tourist_attraction">Tourist Attractions</option>
+            </select>
+            <button class= "btt"onclick="showMarkers()">Show Markers</button>
+        </div>
+        
+      
+  
+      <div id="map"></div>
+      
+      </section>
+
+
+      
+      <!---- Call to action --> 
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Embark on a journey that will redefine your notion of travel. From breathtaking landscapes to culturally rich experiences, we promise to etch unforgettable moments into your heart. 
+              Don't just remember us; let us become the story you can't wait to share
+            </p>
+          </div>
+          
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+</main> 
+
+<!---- Footer-->
+
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+  
+          <div class="footer-brand">
+  
+            <a href="#" class="logo">
+              <h2> Destinations </h2>
+            </a>
+  
+            <p class="footer-text">
+              Embark on a journey that will redefine your notion of travel. 
+              From breathtaking landscapes to culturally rich experiences, we promise to etch unforgettable moments into your heart.
+               Don't just remember us; let us become the story you can't wait to share.
+            </p>
+  
+          </div>
+  
+          <div class="footer-contact">
+  
+            <h4 class="contact-title">Contact Us</h4>
+  
+            <p class="contact-text">
+              Feel free to contact us!
+            </p>
+  
+            <ul>
+  
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+  
+                <a href="tel:+447769985833" class="contact-link">+44 776 998 5833</a>
+              </li>
+  
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+  
+                <a href="mailto:mcneilko@gmail.com" class="contact-link">info.destinations.com</a>
+              </li>
+  
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+  
+                <address>St Catherine COurt, Marina, Swansea</address>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+          <div class="footer-form">
+  
+            <p class="form-text">
+              Subscribe to our newsletter!
+            </p>
+  
+            <form action="" class="form-wrapper">
+              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+  
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <div class="container">
+  
+          <p class="copyright">
+            &copy; 2024 <a href="">codermcneil</a>. All rights reserved
+          </p>
+  
+          <ul class="footer-bottom-list">
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+  
+    </footer>
+  
+
+    
+  <!-- GO TO TOP  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+    
+
+
+
+  
+          <!-- 
+    - custom js link
+  -->
+  <script src="/assets/js/script.js"></script>
+  <script src="/assets/js/map.js"></script>
+  
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
+
+
+ 
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9Hs2Kl4uijlXnhj8vLX6Bawwj0PAniH4&callback=initMap"></script>
+
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+</body>
+
+</html>
