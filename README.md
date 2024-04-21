@@ -199,7 +199,7 @@ The footer is identical on each page to maintain consistency no matter what page
 
 
 ## 4 Testing 
-<a href="/README.md"> Testing </a>
+<a href="/testing.md"> Testing </a>
 
 ## 5. Deployment
 ### 5.1 Deployment
