@@ -248,7 +248,7 @@
               Don't just remember us; let us become the story you can't wait to share
             </p>
           </div>
-          <form action="#" method="POST" class="contact-form">
+          <form>
             <div class="form-group">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" required>
@@ -265,7 +265,7 @@
               <label for="message">Your Message</label>
               <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" onclick="sendMail()" class="btn btn-primary">Submit</button>
           </form>
      
 
@@ -337,7 +337,7 @@
             <form action="" class="form-wrapper">
               <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
   
-              <button type="submit" class="btn btn-secondary">Subscribe</button>
+              <button type="submit" onclick="sendMail()" class="btn btn-secondary">Subscribe</button>
             </form>
   
           </div>
@@ -392,6 +392,18 @@
   <script src="/assets/js/script.js"></script>
   <script src="/assets/js/istanbul-map.js"></script>
   
+  <script src="/assets/js/contactForm.js"></script>
+  
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "WzJig4d-XfvaZZA3o",
+      });
+   })();
+</script>
   <!-- 
     - ionicon link
   -->

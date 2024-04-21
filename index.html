@@ -23,6 +23,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 
 </head>
 <body>
@@ -299,7 +302,7 @@
               Don't just remember us; let us become the story you can't wait to share
             </p>
           </div>
-          <form action="#" method="POST" class="contact-form">
+          <form >
             <div class="form-group">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" required>
@@ -316,7 +319,7 @@
               <label for="message">Your Message</label>
               <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="#" class="btn btn-primary">Submit</button>
+            <button type="submit" onclick="sendMail()" class="btn btn-primary">Submit</button>
           </form>
      
 
@@ -442,7 +445,19 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-  <script src="contactForm.js"></script>
+  <script src="/assets/js/contactForm.js"></script>
+  
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YWzJig4d-XfvaZZA3o",
+      });
+   })();
+</script>
+  
 
   <!-- 
     - ionicon link

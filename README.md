@@ -225,3 +225,22 @@ Cloning a repository using the command line
 On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Discover-Ireland-MS2-Project
 Click on the tab that says < >code
 Above the files, click the button that says ↓code
+
+### Credit
+
+* Home page Banner Image
+   photo download on <a href="https://www.pexels.com/photo/white-canopy-tent-on-white-building-near-ocean-163864/" target="_blank">Pexels.com</a>
+
+   * Destination Imaged
+      - photo download on www.pexels.com <a href="https://www.pexels.com/photo/santorini-greece-221532/" target="_blank">Santorini</a>
+      - photo download on www.pixabay.com <a href="https://pixabay.com/photos/istanbul-bridge-city-river-water-4785964/" target="_blank">Istanbul</a>
+       - photo download on www.pixabay.com <a href="https://pixabay.com/photos/eiffel-tower-france-paris-landscape-975004/" target="_blank">Paris</a>
+       - photo download on www.pixabay.com <a href="https://pixabay.com/photos/cancun-mexico-canal-downtown-1233754/" target="_blank">Cancun</a>
+
+       ## 6. Code
+        
+        *    Pure HTML was used 
+        *  For the Google map i used the Google maps  <a href= "https://developers.google.com/maps/documentation/javascript/overview" target="_blank">Javascript API official documentation </a> and also the <a href="https://leafletjs.com/reference.html" target="_blank"> leaftets.js </a>
+        * For the Email JS feature i referenced the official <a href = "https://www.emailjs.com/docs/" target="_blank">Email JS documentation here </a>
+* To achieve the smooth scrolling effect on the page and some css i followed the tutorial on YouTube by
+codewithsadee 
