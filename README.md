@@ -222,7 +222,7 @@ You can clone the projects repository to your local computer by following the st
 
 Cloning a repository using the command line
 
-On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Discover-Ireland-MS2-Project
+On github navigate to the project repository. The link can be found here: https://github.com/mcneilafegbah/Destinations.git
 Click on the tab that says < >code
 Above the files, click the button that says ↓code
 
