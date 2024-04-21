@@ -13,55 +13,51 @@ A Skyscanner widget that is already preset to the nearest airport of each city. 
 Finally at the bottom of each page i have added a contact form that which i have not configured yet. 
 
 ![Image Description](/assets/images/mockuuu1.PNG)
+
 ## 1.User Experience
 
-1.1 Target audience
-1.2 Visitor goals
-1.3 User stories
-1.4 Design choices
-1.5 Wire frames
+* 1.1 Target audience
+* 1.2 Visitor goals
+* 1.3 User stories
+* 1.4 Design choices
+* 1.5 Wire frames
+
 ## 2. Features
 
-2.1 The Navbar
-2.2 SkyScanner JavaScript Widget
-2.3 Google Maps API
-2.4 Contact Us Forum
-2.5 The Footer
+* 2.1 The Navbar
+* 2.2 SkyScanner JavaScript Widget
+* 2.3 Google Maps API
+* 2.4 Contact Us Form
+* 2.5 The Footer
 
 ## 3. Technologies/Languages Used
 
-3.1 Gitpod
-3.2 HTML5
-3.3 CSS
-3.4 JavaScript
-3.5 Bootstrap
-3.6 Google fonts
-3.7 Font Awesome
-3.8 W3schools
-3.9 Balsamiq
-3.10 Weather Widget API
-3.11 Skyscanner JavaScript Widget
-3.12 Video JS
-3.13 Google Maps API
-3.14 Email JS
-3.15 Favicon Generator
+* 3.1 Gitpod
+* 3.2 HTML5
+* 3.3 CSS
+* 3.4 JavaScript
+* 3.5 Bootstrap
+* 3.6 Google fonts
+* 3.7 Font Awesome
+* 3.8 Balsamiq
+* 3.9 Skyscanner JavaScript Widget
+* 3.10 Google Maps API
+* 3.11 Email JS
+* 3.12 Favicon Generator
 
 ## 4. Testing
-4.1 See testing.md document
+* 4.1 See testing.md document
 
 ## 5. Deployment
-5.1 Deployment
-5.2 Cloning
-5.3 Cloning Desktop
+* 5.1 Deployment
+* 5.2 Cloning
+
 
 ## 6. Credits
-6.1 Media
-6.2 Code
-6.3 Acknowledgements
+* 6.1 Media
+* 6.2 Code
 
 
-8. Disclaimer
-8.1 Disclaimer on project
 
 
 ## 1. User Experience (UX)
@@ -200,6 +196,10 @@ The footer is identical on each page to maintain consistency no matter what page
 * 3.8 - Skyscanner JavaScript Widget Skyscanner is a travel fare aggregator website and travel metasearch engine. Site visitors can use Skyscanner to plan and book their travels, including flights, hotels, and car hire, at the best prices.
 
 * 3.9 - Google Maps API - The Google Maps Platform is a set of APIs and SDKs that allows developers to embed Google Maps into mobile apps and web pages, or to retrieve data from Google Maps.
+
+
+## 4 Testing 
+<a href="/README.md"> Testing </a>
 
 ## 5. Deployment
 ### 5.1 Deployment
